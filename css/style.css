@@ -1,0 +1,308 @@
+/*
+Ahammed Nayeem
+01681717393
+*/
+
+/* Theme Global CSS*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ body{
+ 	font-family: 'Lato', sans-serif;
+ }
+ .container-fluid{
+ 	width: 100%;
+ }
+ .container{
+ 	margin: 0 auto;
+ 	width: 1140px;
+ }
+
+ /* Header Section */
+ header{
+ 	width: 100%;
+ 	height: 75px;
+ 	background-color: #fbfafa;
+}
+ header img {
+ 	margin-top: 15px;
+    margin-left: 50px;
+    height: 40px;	
+ }
+
+
+ /* Banner Section */
+
+ .banner-img{
+ 	background: url(../img/banner.png) no-repeat;
+ 	background-size: cover;
+ }
+ .banner-content h1{
+ 	text-align: center;
+    padding-top: 170px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 80px;
+ }
+
+ .banner-content hr{
+ 	width: 40%;
+    margin: 0 auto;
+    border: 1px solid #43b0f1;
+ }
+
+ .banner-content p{
+ 	text-align: center;
+ 	padding-top: 30px;
+ 	color: #fff;
+ }
+
+ .banner-content .banner-btn{
+ 	background-color: transparent;
+    padding: 15px 35px;
+    border: 1px solid #43b0f1;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    transition: 0.4s;
+    margin-top: 35px;
+ }
+
+ .banner-content .banner-btn:hover{
+ 	cursor: pointer;
+    background-color: #5aafe2;
+    border: 1px solid #2196F3;
+    color: white;
+ }
+
+.banner-content a {
+    text-decoration: none;
+}
+
+.banner-content i {
+    font-size: 30px;
+    display: block;
+    color: #fff;
+    margin: 135px 560px 0px 560px;
+    padding-bottom: 60px;
+}
+
+.banner-content i:hover {
+    color: #2196F3;
+}
+
+/* Design Section */
+
+.design{
+	padding: 50px;
+	background-color: #f3f3f3;
+	width: 100%;
+	float: left;
+
+}
+.design h2{
+	text-align: center;
+    color: #3c3939;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.design p{
+	text-align: center;
+    padding: 0 112px;
+    color: #868686;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+
+/* Feature Section */
+
+.feature{
+	width: 100%;
+	float: left;
+}
+
+.feature-control{
+	padding: 50px;
+}
+
+.feature-item{
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.feature-item img{
+	height: 90px;
+	width: 90px;
+}
+
+.feature-item h3{
+	text-align: center;
+    color: #403c3c;
+    font-size: 20px;
+    font-weight: inherit;
+    padding: 15px 0;
+}
+
+.feature-item p{
+	padding: 0px 30px;
+    font-size: 14px;
+    color: #868686;
+    line-height: 20px;
+}
+
+
+/* Showcase Section */
+
+.showcase{
+	padding: 50px 0;
+	float: left;
+	background-color: #f3f3f3;
+	width: 100%;
+}
+
+.showcase h2{
+	text-align: center;
+    color: #3e3a3a;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.showcase p{
+	text-align: center;
+    padding: 5px 112px;
+    color: #868686;
+    font-size: 15px;
+}
+
+/* Showcase Image Section */
+
+.showcase-image{
+	float: left;
+	width: 33%;
+	padding: 20px 0 0 0;
+}
+
+.showcase-image img{
+    width: 350px;
+    height: 250px;
+}
+
+/* Contact Us Section */
+
+.contact-us{
+	background: url(../img/stay-banner.png) no-repeat;
+	background-size: cover;
+	float: left;
+	width: 100%;
+}
+
+.form-section{
+	margin: 20px 250px;
+    padding-bottom: 100px;
+}
+
+.contact-us h3{
+	text-align: center;
+    color: #dedede;
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 50px;
+}
+.form-section p{
+	text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #868686;
+    line-height: 20px;
+}
+
+.form-control{
+	width: 430px;
+    padding: 16px;
+    background: transparent;
+    margin: 15px 80px;
+    border: 1px solid #828080;
+    border-radius: 2px;
+    display: block;
+    color: #fff;
+}
+
+.msg{
+	padding-left: 12px;
+    padding-top: 10px;
+    background: transparent;
+    margin: 15px 80px;
+    border: 1px solid #828080;
+    border-radius: 2px;
+    display: block;
+    color: #fff;
+}
+
+.check{
+	float: left;
+    margin-left: 85px;
+    margin-top: 10px;
+    height: 15px;
+    width: 15px;
+}
+.contact-us form p{
+	float: left;
+    margin-left: 5px;
+    padding-top: 7px;
+    color: #d4d4d4;
+}
+
+.btn{
+	float: left;
+    margin-left: 175px;
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid #43b0f1;
+    border-radius: 3px;
+    color: #e6e4e4;
+}
+
+.btn:hover {
+	cursor: pointer;
+    background-color: #5aafe2;
+    border: 1px solid #2196F3;
+    color: white;
+}
+
+
+/*Footer Section*/
+
+.footer{
+	padding: 15px 15px;
+    float: left;
+    width: 100%;
+}
+
+.footer p{
+	margin-left: 40px;
+    color: gray;
+}
+.footer ul{
+	float: right;
+    list-style: none;
+}
+.footer ul li{
+	display: inline-block;
+    list-style: none;
+    margin-right: 2px;
+}
+
+.footer ul li a{
+	padding: 8px 12px;
+    background: #15A4FA;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 2px;
+}
